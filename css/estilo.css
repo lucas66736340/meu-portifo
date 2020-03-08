@@ -227,17 +227,57 @@ body{
 
 .empresas{
     background-color: #6d56c1;
-    padding: 150px;
-    display: flex;
-    align-items: center;
+    padding: 48px;
+    opacity: 1;
+    
+}
+
+.logo-empresas{
+    width: 200px;
+    height: 76px;
+}
+
+.carro{
+    padding: 48px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
+/* inicio rodape */
 
 
+.rodape{
+    background-color: #6d56c1;
+    padding-bottom: 3rem !important;
+    padding-top: 3rem !important;
+}
 
+.img-sm {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 46% ;
+   
 
+}
 
+.linha-interesse{
+    
+    color: white;
+
+}
+.interrese{
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.roda{
+    margin: 0 auto;
+    background-color:white ;
+
+    color:#6d56c1 ;
+}
 
 
 
@@ -265,7 +305,9 @@ body{
         margin-bottom: 50px;
     }
 
-    
+    .img-sm {
+        margin-left: 100px;
+    }
     
     
 }

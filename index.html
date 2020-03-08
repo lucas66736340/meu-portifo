@@ -13,6 +13,13 @@
    <!-- estilo do boot -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
    
+
+
+    <!-- estilo carrosel -->
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+
+   <!-- meu estilo -->
     <link rel="stylesheet" href="css/estilo.css">
 
 
@@ -323,42 +330,99 @@
 
              <!-- inicio empresas que trabalhei -->
 
-             <div class="container-fluid ">
-                <div class="row empresas">
-                    <div class="col col-md-2">
-                      <img src="img/logo-1.svg" alt="" srcset="">
-                    </div>  
-                    <div class="col col-md-2">
-                      <img src="img/logo-1.svg" alt="" srcset="">
-                    </div>  
-                    <div class="col col-md-2">
-                      <img src="img/logo-1.svg" alt="" srcset="">
-                    </div>  
-                    <div class="col col-md-2">
-                      <img src="img/logo-1.svg" alt="" srcset="">
-                    </div>  
-                    <div class="col col-md-2">
-                      <img src="img/logo-1.svg" alt="" srcset="">
-                    </div>  
-                    <div class="col col-md-2">
-                      <img src="img/logo-1.svg" alt="" srcset="">
-                    </div>  
-                    
+
+             <div class="owl-carousel owl-theme carro">
+                <div class="item">
+                    <img src="img/logo-1.svg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/logo-2.svg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/logo-3.svg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/logo-4.svg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/logo-5.svg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img src="img/logo-6.svg" alt="" srcset="">
+                </div>
+              
+            </div>
+
+
+            <!-- inicio rodape -->
+
+            <footer class="rodape">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-md-12 linha-img">
+
+                                <img class="img-sm" src="img/perfil.jpg"  alt="" >
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="row linha-interesse">
+                            <h2 class="display-5  interrese">Interessado em me contratar para o seu projeto?</h2> 
+                            
+                            <p class="text-center lead p-1">
+                                Procurando por um desenvolvedor experiente de pilha completa para criar seu aplicativo Web ou enviar seu produto de software? Para iniciar um bate-papo inicial, envie-me um e-mail para steve.doe@youremail.com ou use o formulário na página de contato .
+                            </p>
+
+                            <button class="btn botao roda"> Vamos Conversar </button>
+
+                        </div>
+
+                    </div>
+
                 </div>
 
-             </div>
+
+            </footer>
+
+        
             
 
-    
+          
+             <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+             <script src="OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+
+             <script >
+                 $('.owl-carousel').owlCarousel({
+                        loop:true,
+                        margin:10,
+                        autoplay:true,
+                        autoplaySpeed:1000,
+                       
+                        responsive:{
+                            0:{
+                                items:1
+                            },
+                            600:{
+                                items:3
+                            },
+                            1000:{
+                                items:5
+                            }
+                        }
+                    })
 
 
-    
-    
+             </script>
+
+
+             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>
