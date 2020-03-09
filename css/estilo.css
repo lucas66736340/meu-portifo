@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 
 }
 
@@ -25,8 +26,7 @@ body{
     display: inline;
     margin-left: 5px;
     font-size: 22px;
-    color: white;
-    
+    color: white; 
 }
 .ico{
     color: white;
@@ -44,8 +44,6 @@ body{
 .navbar-light .navbar-nav .nav-link:hover {
     border-bottom: 3px solid white;
     color: white;
-
-    
 }
 
 
@@ -237,10 +235,22 @@ body{
     height: 76px;
 }
 
-.carro{
-    padding: 48px;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+/* img carrosel */
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 50%;
 }
+
+
+.carro{
+   padding: 48px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   height: 150px;
+}
+
+
+
 
 
 /* inicio rodape */
@@ -264,8 +274,15 @@ body{
 .linha-interesse{
     
     color: white;
+    text-align: center;
+    
 
 }
+.linha-interesse p {
+    font-size: 18px;
+}
+
+
 .interrese{
     margin: 0 auto;
     padding: 10px;
@@ -275,8 +292,25 @@ body{
 .roda{
     margin: 0 auto;
     background-color:white ;
-
     color:#6d56c1 ;
+}
+
+.foo{
+    background-color: white;
+     font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color:rgb(241, 239, 255) ;
+    color: gray;
+    
+}
+
+.foo h4{
+    font-size: 16px;
+}
+
+.direitos{
+    background-color:rgb(241, 239, 255) ;
 }
 
 
@@ -297,10 +331,7 @@ body{
         align-items: center;
        
         padding: 0;
-
     }
-
-    
     .habilidade{
         margin-bottom: 50px;
     }
@@ -308,7 +339,10 @@ body{
     .img-sm {
         margin-left: 100px;
     }
-    
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+    }
     
 }
 
@@ -325,12 +359,8 @@ body{
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
-        
-        
+          
     }
-
-   
-
     .habilidade{
         margin-bottom: 50px;
     }
@@ -355,8 +385,6 @@ body{
         flex-direction: column;
         flex-wrap: wrap;
        
-        
-        
     }
  
 }
